@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f0e9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #593c2f;
+}
+
+.description {
+    margin: 10px 0 20px;
+    color: #555;
+}
+
+.prep-time, .ingredients, .instructions, .nutrition {
+    margin-bottom: 20px;
+}
+
+.prep-time p {
+    background: #fcefe3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition th, .nutrition td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
